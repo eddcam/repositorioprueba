@@ -30,7 +30,7 @@ try {
 	 ps.setString(5, usuario );
 	 ps.executeUpdate();	
 	 request.setAttribute("mensaje", "Registro realizado con exito");
-	 request.getRequestDispatcher("UsuarioNuevo2.jsp").forward(request, response);	
+	 request.getRequestDispatcher("UsuarioNuevo.jsp").forward(request, response);	
 	
 	 //response.sendRedirect("UsuarioNuevo.jsp?msg=valid");
 	 ps.close();
@@ -40,7 +40,7 @@ try {
 	
 	 System.out.println(e);
 	 request.setAttribute("mensaje", "La identificacion ya se encuentra registrada! intentelo nuevamente");
-	 request.getRequestDispatcher("UsuarioNuevo2.jsp").forward(request, response);	
+	 request.getRequestDispatcher("UsuarioNuevo.jsp").forward(request, response);	
 	// response.sendRedirect("UsuarioNuevo.jsp?msg=invalid");
 
 }

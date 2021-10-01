@@ -13,7 +13,7 @@
 <title>Principal</title>
 </head>
 <body>
-	<jsp:include page="encabezadoclientecerrar.jsp" />
+	
 	Bienvenido ${sessionScope.usuario.usuario}
 	
 	<!-- barra de navegacion superior -->
@@ -66,7 +66,7 @@
         </form>
 
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Enlace #3</a></li>
+          <li><a href="#"><jsp:include page="encabezadoclientecerrar.jsp" /></a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
           Menú #2 <b class="caret"></b>

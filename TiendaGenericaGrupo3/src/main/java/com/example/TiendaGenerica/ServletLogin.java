@@ -55,7 +55,7 @@ public class ServletLogin extends HttpServlet {
 		HttpSession sesion = request.getSession();
 		sesion.invalidate();
 		request.setAttribute("mensaje", "Iniciar sesión");
-		request.getRequestDispatcher("login.jsp").forward(request, response);
+		request.getRequestDispatcher("index.jsp").forward(request, response);
 		
 	}
 

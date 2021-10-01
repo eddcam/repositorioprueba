@@ -11,7 +11,7 @@
 <body>
 	<div class="container">
 		<div class="form-container">
-			<h2>Inicio de sesión</h2>
+			<h2>Inicio de sesión administradores</h2>
 			<form id="formLogin" action="login" method="post">
 				<input type="hidden" name="tipo" value="iniciarSesion" />
 				<div class="form-group">

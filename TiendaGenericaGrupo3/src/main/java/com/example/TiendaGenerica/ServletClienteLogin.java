@@ -55,7 +55,7 @@ public class ServletClienteLogin extends HttpServlet {
 		HttpSession sesion = request.getSession();
 		sesion.invalidate();
 		//request.setAttribute("mensaje", "Iniciar sesión");
-		request.getRequestDispatcher("loginClientes.jsp").forward(request, response);
+		request.getRequestDispatcher("index.jsp").forward(request, response);
 		//response.sendRedirect("index.jsp");
 	}
 
@@ -70,7 +70,7 @@ public class ServletClienteLogin extends HttpServlet {
 		if (usuario == null) {
 			
 			request.setAttribute("mensaje", "Usuario y/o contraseña incorrectos");
-			request.getRequestDispatcher("login.jsp").forward(request, response);			
+			request.getRequestDispatcher("loginClientes.jsp").forward(request, response);			
 		}else {
 			HttpSession sesion = request.getSession();
 			sesion.setAttribute("usuario", usuario);

@@ -13,7 +13,7 @@
 <title>Principal</title>
 </head>
 <body>
-	<jsp:include page="encabezadoclienteini.jsp" />
+	
 	
 	
 	<!-- barra de navegacion superior -->
@@ -66,17 +66,11 @@
         </form>
 
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Enlace #3</a></li>
+          <li><a ><jsp:include page="encabezadoclienteini.jsp" /></a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          Menú #2 <b class="caret"></b>
-        </a>
+           <li><a href="login.jsp">Zona Administradores</a></li>
             <ul class="dropdown-menu">
-              <li><a href="#">Acción #1</a></li>
-              <li><a href="#">Acción #2</a></li>
-              <li><a href="#">Acción #3</a></li>
-              <li class="divider"></li>
-              <li><a href="#">Acción #4</a></li>
+            
             </ul>
           </li>
         </ul>
