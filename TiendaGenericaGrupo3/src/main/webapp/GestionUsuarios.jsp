@@ -63,7 +63,7 @@
 			</tbody>
 		</table>
 	</div>
-
+	<td><input  type="button" onclick="document.location.reload();" value = "Refrescar"  class = "btn btn-primary btn" > </td>
 <body>
 
 </body>
