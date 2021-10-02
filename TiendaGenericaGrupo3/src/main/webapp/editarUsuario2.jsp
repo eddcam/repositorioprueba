@@ -20,7 +20,7 @@
 </head>
 <body>
 <%
-String cedula_usuario=request.getParameter("cedula_usuario");
+String cedula_usuario=request.getParameter("cedula_usuario"); // estas lineas para ingresar a la base de datos estan dando conflictos y al ejecutar la pantalla queda en blanco
 Conexion cn = new Conexion ();
 Connection con =null;
 Statement ps = null;
