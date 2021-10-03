@@ -1,4 +1,4 @@
-<%@page import="org.apache.catalina.connector.Response"%>
+
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.PreparedStatement"%>
 <%@page import="java.sql.Statement"%>
@@ -16,7 +16,7 @@ String usuario=request.getParameter("usuario");
 
 int check=0;
 Conexion cn = new Conexion ();
-Connection con =null;
+Connection con = null ;
 Statement ps = null;
 ResultSet rs = null;
 
