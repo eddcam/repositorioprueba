@@ -67,18 +67,7 @@
 
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#"><jsp:include page="encabezadoclientecerrar.jsp" /></a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          Menú #2 <b class="caret"></b>
-        </a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Acción #1</a></li>
-              <li><a href="#">Acción #2</a></li>
-              <li><a href="#">Acción #3</a></li>
-              <li class="divider"></li>
-              <li><a href="#">Acción #4</a></li>
-            </ul>
-          </li>
+         <li><a href="GestionProveedores.jsp">Gestion de Proveedores</a></li>
         </ul>
       </div>
     </nav>
