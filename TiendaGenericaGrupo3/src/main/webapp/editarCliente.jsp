@@ -27,58 +27,58 @@
 				<figure class="text-center">
 					<h2></h2>
 					<figure class="text-center">
-					<h5 style="color:#dc3545">Bienvenido al Módulo de Edición de Clientes</h5>
-					<h5 style="color:#dc3545">Por favor modifique la información y presione "Actualizar Cliente" al finalizar</h5>
+					<h5 style="color:#0000ff">Bienvenido al Módulo de Edición de Clientes</h5>
+					<h5 style="color:#0000ff">Por favor modifique la información y presione "Actualizar Cliente" al finalizar</h5>
 					<p></p>
 					<div class="row">
 						<div class="col-md-6 mb-3">
     						<label for="cedula_usuario" class="form-label">Cedula del Cliente</label>
-    						<input type="text" name="cedula_cliente" class="form-control" id="formGroupExampleInput" placeholder="Digite la cedula del cliente" value= ""  required>
+    						<input style="background-color:#FFF8DC; type="text" name="cedula_cliente" class="form-control" id="formGroupExampleInput" placeholder="Digite la cedula del cliente" value= ""  required>
   						</div>
   						
   						<div class="col-md-6 mb-3">
     						<label for="email_usuario" class="form-label">Correo Electronico</label>
-    						<input type="email" name="email_cliente" class="form-control" id="formGroupExampleInput" placeholder="Digite el nuevo correo electronico del cliente" value= "" required>
+    						<input  style="background-color:#FFF8DC; type="email" name="email_cliente" class="form-control" id="formGroupExampleInput" placeholder="Digite el nuevo correo electronico del cliente" value= "" required>
   						</div>
   							
   					</div>
   					<div class="row">
   						<div class="col-md-6 mb-3">
     						<label for="nombre_usuario" class="form-label">Nombre del Cliente</label>
-    						<input type="text" name="nombre_cliente" class="form-control" id="formGroupExampleInput" placeholder="Digite el nuevo nombre completo" value= "" required>
+    						<input style="background-color:#FFF8DC; type="text" name="nombre_cliente" class="form-control" id="formGroupExampleInput" placeholder="Digite el nuevo nombre completo" value= "" required>
   						</div>
   						
   						<div class="col-md-6 mb-3">
     						<label for="cedula_usuario" class="form-label">Telefono del Cliente</label>
-    						<input type="text" name="telefono" class="form-control" id="formGroupExampleInput" placeholder="Digite el nuevo telefono del cliente" value= ""  required>
+    						<input style="background-color:#FFF8DC; type="text" name="telefono" class="form-control" id="formGroupExampleInput" placeholder="Digite el nuevo telefono del cliente" value= ""  required>
   						</div>
   						
   						<div class="col-md-6 mb-3">
     						<label for="cedula_usuario" class="form-label">Direccion del Cliente</label>
-    						<input type="text" name="direccion" class="form-control" id="formGroupExampleInput" placeholder="Digite la nueva direccion del cliente" value= ""  required>
+    						<input style="background-color:#FFF8DC; type="text" name="direccion" class="form-control" id="formGroupExampleInput" placeholder="Digite la nueva direccion del cliente" value= ""  required>
   						</div>
   						
   						<div class="col-md-6 mb-3">
     						<label for="password" class="form-label">Contraseña</label>
-    						<input type="password" name="password" class="form-control" id="formGroupExampleInput" placeholder="Digite su Contraseña" value= "" required>
+    						<input style="background-color:#FFF8DC; type="password" name="password" class="form-control" id="formGroupExampleInput" placeholder="Digite su Contraseña" value= "" required>
   						</div>
   					</div>
   					<div class="row">
 						<div class="col-md-6 mb-3">
     						<label for="usuario" class="form-label">Usuario</label>
-    						<input type="text" name="usuario" class="form-control" id="formGroupExampleInput" placeholder="Digite su Usuario" value= "" required>
+    						<input style="background-color:#FFF8DC; type="text" name="usuario" class="form-control" id="formGroupExampleInput" placeholder="Digite su Usuario" value= "" required>
   						</div>
   						
   					</div>
   					
   					
   					<div>
-						<input style="background-color:#dc3545;color:#FFFFFF;border:#dc3545 1px solid" type="submit" name="accion" value="Actualizar Usuario" class="btn btn-primary btn">
+						<input style="background-color:DodgerBlue;color:#FFFFFF;border:DodgerBlue" type="submit" name="accion" value="Actualizar Usuario" class="btn btn-primary btn">
 					</div>
 				</form>
     				<div>
     					<p></p>
-      					<div><h6 class="text-center"><a style="color:#dc3545"  href="GestionClientes.jsp">Volver a Gestión Clientes</a></h6></div>
+      					<div><h6 class="text-center"><a style="color:GRAY"  href="GestionClientes.jsp">Volver a Gestión Clientes</a></h6></div>
     			</div>
 			</div>
 		</div>

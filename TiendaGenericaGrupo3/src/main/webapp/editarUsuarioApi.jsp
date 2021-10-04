@@ -30,10 +30,12 @@ try{
 		check=1;
 		String sql="update usuarios set nombre_usuario='" + nombre_usuario + "',email_usuario='" + email_usuario + "' where usuario ='" + usuario + "' and password='" + password + "'";
 		ps.executeUpdate(sql);
+		request.setAttribute("mensaje", "Usuario actualizado con exito");
 		response.sendRedirect("editarUsuario.jsp?msg=done");
 	}
 	
 	if (check==0){
+		request.setAttribute("mensaje", "Usuario no encontrado");
 		response.sendRedirect("editarUsuario.jsp?msg=invalid");
 	}
 	rs.close();
