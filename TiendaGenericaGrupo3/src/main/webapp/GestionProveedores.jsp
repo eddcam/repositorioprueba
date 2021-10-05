@@ -63,6 +63,7 @@
 			%>	
 			</tbody>
 		</table>
+		<div><h6 class="text-center"><a style="color:GRAY"  href="principal.jsp">Volver a Inicio
 	</div>
 	<td><input  type="button" onclick="document.location.reload();" value = "Refrescar"  class = "btn btn-primary btn" > </td>
 	<td><a   type="button" style =" background-color:green;"  class="btn btn-primary btn" href="editarProveedor.jsp">Editar Proveedores</a></td>

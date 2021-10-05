@@ -69,7 +69,7 @@
         </form>
 
         <ul class="nav navbar-nav navbar-right">
-          <li><a ><jsp:include page="encabezadoclienteini.jsp" /></a></li>
+          <li><a ><jsp:include page="encabezadoclientecerrar.jsp" /></a></li>
           <li class="dropdown">
            <li><a href="login.jsp">Zona Administradores</a></li>
             <ul class="dropdown-menu">

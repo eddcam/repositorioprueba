@@ -41,7 +41,7 @@ public class ServletClienteLogin extends HttpServlet {
 			request.getRequestDispatcher("loginClientes.jsp").forward(request, response);			
 		}else {
 			
-			response.sendRedirect("principal.jsp");
+			response.sendRedirect("indexClientes.jsp");
 	
 		}
 
@@ -74,7 +74,7 @@ public class ServletClienteLogin extends HttpServlet {
 		}else {
 			HttpSession sesion = request.getSession();
 			sesion.setAttribute("usuario", usuario);
-			response.sendRedirect("principal.jsp");
+			response.sendRedirect("indexClientes.jsp");
 
 		}
 		

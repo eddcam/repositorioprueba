@@ -34,28 +34,16 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="#">Generic Store</a>
+        <p align ="left"> <img src="img/genericstore2.png" alt="HTML5 Icon" style="width:80px;height:80px;"></p>
       </div>
 
       <!-- Agrupar los enlaces de navegación, los formularios y cualquier
        otro elemento que se pueda ocultar al minimizar la barra -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Enlace #1</a></li>
-          <li><a href="#">Enlace #2</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          Menú #1 <b class="caret"></b>
-        </a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Acción #1</a></li>
-              <li><a href="#">Acción #2</a></li>
-              <li><a href="#">Acción #3</a></li>
-              <li class="divider"></li>
-              <li><a href="#">Acción #4</a></li>
-              <li class="divider"></li>
-              <li><a href="#">Acción #5</a></li>
-            </ul>
-          </li>
+          <li class="active"><a href="#">PRODUCCTOS</a></li>
+          <li><a href="GestionClientes.jsp">GESTIÓN CLIENTES</a></li>
+         <li><a href="GestionUsuarios.jsp">GESTIÓN USUARIOS</a></li>
         </ul>
 
         <form class="navbar-form navbar-left" role="search">
@@ -67,7 +55,7 @@
 
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#"><jsp:include page="encabezadoclientecerrar.jsp" /></a></li>
-         <li><a href="GestionProveedores.jsp">Gestion de Proveedores</a></li>
+         <li><a href="GestionProveedores.jsp">GESTION DE PROVEEDORES</a></li>
         </ul>
       </div>
     </nav>
@@ -80,6 +68,6 @@
          incluir archivos JavaScript individuales de los únicos
          plugins que utilices) -->
     <script src="js/bootstrap.min.js"></script>
-	
+	 <p align ="center"> <img  src="img/store.jpg" alt="HTML5 Icon" > </p>
 </body>
 </html>

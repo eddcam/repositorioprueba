@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<p align= "center"> ELIMINAR PROVEEDORES </p>
+<p align= "center" style="color:#0000ff"> ELIMINAR PROVEEDORES </p>
 	<form action="eliminarProveedorApi.jsp"  method= POST>
 	<table>
 	
@@ -17,10 +17,11 @@
 		</tr>
 			
 		<tr>
-		<td><input type = "submit" name = "accion" value = "Eliminar"  class = "btn btn-primary btn "> </td>
+		<td><input style="background-color:DodgerBlue;color:#FFFFFF;border:DodgerBlue"  type = "submit" name = "accion" value = "Eliminar"  class = "btn btn-primary btn "> </td>
 		</tr>
 		
 	</table>
+	<div><h6 class="text-center"><a style="color:GRAY"  href="GestionProveedores.jsp">Volver a Gestión Proveedores</a></h6></div>
 	</form>
 	<div>
 			<p>
