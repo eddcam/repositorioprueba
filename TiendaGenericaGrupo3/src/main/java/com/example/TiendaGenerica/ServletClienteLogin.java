@@ -41,7 +41,7 @@ public class ServletClienteLogin extends HttpServlet {
 			request.getRequestDispatcher("loginClientes.jsp").forward(request, response);			
 		}else {
 			
-			response.sendRedirect("indexClientes.jsp");
+			request.getRequestDispatcher("indexClientes.jsp");
 	
 		}
 

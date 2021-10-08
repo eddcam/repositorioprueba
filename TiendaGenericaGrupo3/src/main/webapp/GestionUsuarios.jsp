@@ -66,6 +66,7 @@
 	</div>
 	<td><input  type="button" onclick="document.location.reload();" value = "Refrescar"  class = "btn btn-primary btn" > </td>
 	<td><a   type="button" style =" background-color:green;"  class="btn btn-primary btn" href="editarUsuario.jsp">Editar Usuarios</a></td>
+	<td><a   type="button" style =" background-color:blue;"  class="btn btn-primary btn" href="UsuarioNuevo.jsp">Nuevo Usuario</a></td>
 <body>
 
 </body>

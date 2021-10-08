@@ -24,14 +24,14 @@
 			 check = 1;
 			 String sql = "DELETE  FROM proveedores Where nit_proveedor = '"+ nit +"'";
 			 ps.executeUpdate(sql);
-			 request.setAttribute("mensaje", "Usuario eliminado con exito");
+			 request.setAttribute("mensaje", "Proveedor eliminado con exito");
 			 request.getRequestDispatcher("eliminarProveedor.jsp").forward(request, response);	
 			 response.sendRedirect("eliminarProveedor.jsp?msg=delete");
 			 
 		 }
 		 
 		 if (check == 0) {
-			 request.setAttribute("mensaje", "Usuario no encontrado! intentelo nuevamente");
+			 request.setAttribute("mensaje", "Proveedor no encontrado! intentelo nuevamente");
 			 request.getRequestDispatcher("eliminarProveedor.jsp").forward(request, response);	
 			 response.sendRedirect("eliminarProveedor.jsp?msg=invalid");
 			 response.sendRedirect("login.jsp");

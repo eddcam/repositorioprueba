@@ -25,7 +25,12 @@
 				</div>
 				
 				<button type="submit" class="btn btn-success btn-block btn-lg">Iniciar sesión</button>
+				<div class="form-group">
+				<a href="ClienteNuevo.jsp">¿No tienes una cuenta? Registrate!</a>
+				</div>
+				
 				<div>
+				
 					<p>
 						<%
 							String resultado = (String)request.getAttribute("mensaje");

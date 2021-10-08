@@ -37,7 +37,7 @@
                     
                      <div style="margin-bottom: 25px" class="input-group">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-map-marker"></i></span>
-                        <input id="register-adress" type="text" class="form-control" name="direccion_proveedor" placeholder="Direccón.">
+                        <input id="register-adress" type="text" class="form-control" name="direccion_proveedor" placeholder="Dirección.">
                     </div>
         
                     

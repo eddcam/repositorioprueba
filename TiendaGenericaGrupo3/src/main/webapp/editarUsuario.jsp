@@ -38,7 +38,7 @@
   						
   						<div class="col-md-6 mb-3">
     						<label for="email_usuario" class="form-label">Correo Electronico</label>
-    						<input style="background-color:#FFF8DC;v type="email" name="email_usuario" class="form-control" id="formGroupExampleInput" placeholder="Digite el correo electronico del usuario" value= "" required>
+    						<input style="background-color:#FFF8DC;v type="email" name="email_usuario" class="form-control" id="formGroupExampleInput" placeholder="Digite el nuevo correo electronico del usuario" value= "" required>
   						</div>
   							
   					</div>

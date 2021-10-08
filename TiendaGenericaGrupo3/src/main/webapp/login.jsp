@@ -26,6 +26,7 @@
 				
 				<button type="submit" class="btn btn-success btn-block btn-lg">Iniciar sesión</button>
 				<div>
+				<a href="index.jsp">Volver Al Inicio</a>
 					<p>
 						<%
 							String resultado = (String)request.getAttribute("mensaje");

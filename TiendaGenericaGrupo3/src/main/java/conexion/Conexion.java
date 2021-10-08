@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
  */
 public class Conexion {
 	 /**Parametros de conexion*/
-	   static String bd = "tiendavirtualequipo3";
+	   static String bd = "grupo63_equipo3";
 	   static String login = "admin";
 	   static String password = "bdgrupo206263";
 	   static String url = "jdbc:mysql://bdgrupo206263.czo3ixoe3xoe.us-east-1.rds.amazonaws.com/"+bd;
