@@ -1,4 +1,4 @@
-<%@page import="org.apache.catalina.connector.Response"%>
+
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.PreparedStatement"%>
 <%@page import="java.sql.Statement"%>
@@ -55,7 +55,7 @@ ResultSet rs = null;
 			String value=null;			
 			BufferedReader input = new BufferedReader(new FileReader(saveFile));
 			while ((line = input.readLine()) != null){
-				String query="insert into tiendavirtualequipo3.productos VALUES (0,"+line+");";
+				String query="insert into grupo63_equipo3.productos VALUES (0,"+line+");";
 				System.out.println(query);
 				int r = ps.executeUpdate(query);
 			}
