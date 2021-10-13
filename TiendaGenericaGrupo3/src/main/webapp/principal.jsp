@@ -41,7 +41,7 @@
        otro elemento que se pueda ocultar al minimizar la barra -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">PRODUCCTOS</a></li>
+          <li class="active"><a href="GestionProductos.jsp">GESTIÓN PRODUCTOS</a></li>
           <li><a href="GestionClientes.jsp">GESTIÓN CLIENTES</a></li>
          <li><a href="GestionUsuarios.jsp">GESTIÓN USUARIOS</a></li>
         </ul>
