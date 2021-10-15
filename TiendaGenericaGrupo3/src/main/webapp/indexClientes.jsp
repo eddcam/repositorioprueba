@@ -43,11 +43,12 @@
        otro elemento que se pueda ocultar al minimizar la barra -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">PRODUCTOS</a></li>
-          <li><a href="#">CONTACTENOS</a></li>
+ 
+          <li><a href="indexContacto.jsp">CONTACTENOS</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          Menú #1 <b class="caret"></b>
+          <li><a href="NuestrosProductos.jsp">NUESTROS PRODUCTOS</a></li>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+           <b class="caret"></b>
         </a>
             <ul class="dropdown-menu">
               <li><a href="#">Acción #1</a></li>
@@ -61,12 +62,7 @@
           </li>
         </ul>
 
-        <form class="navbar-form navbar-left" role="search">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Buscar">
-          </div>
-          <button type="submit" class="btn btn-default">Enviar</button>
-        </form>
+       
 
         <ul class="nav navbar-nav navbar-right">
           <li><a ><jsp:include page="encabezadoclientecerrar.jsp" /></a></li>

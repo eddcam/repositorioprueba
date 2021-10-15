@@ -33,7 +33,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-       <p align ="left"> <a class="navbar-brand" href="#">Generic Store</a></p>
+       <p align ="left"> <a class="navbar-brand" href="index.jsp">Generic Store</a></p>
         
         
        <p align ="left"> <img src="img/genericstore2.png" alt="HTML5 Icon" style="width:80px;height:80px;"></p>
@@ -43,11 +43,10 @@
        otro elemento que se pueda ocultar al minimizar la barra -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
-
+ 
           <li><a href="indexContacto.jsp">CONTACTENOS</a></li>
           <li class="dropdown">
-          <li><a href="NuestrosProductos.jsp">NUESTROS PRODUCTOS</a></li>
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
            <b class="caret"></b>
         </a>
             <ul class="dropdown-menu">
@@ -61,11 +60,11 @@
             </ul>
           </li>
         </ul>
-         
-          
+
+        
 
         <ul class="nav navbar-nav navbar-right">
-          <li><a ><jsp:include page="encabezadoclienteini.jsp" /></a></li>
+         
           <li class="dropdown">
            <li><a href="login.jsp">Zona Administradores</a></li>
             <ul class="dropdown-menu">
@@ -84,6 +83,6 @@
          incluir archivos JavaScript individuales de los únicos
          plugins que utilices) -->
     <script src="js/bootstrap.min.js"></script>
-	 <p align ="center"> <img  src="img/store.jpg" alt="HTML5 Icon" > </p>
+	 <p align ="center"> <img  src="img/storecontacto.jpg" alt="HTML5 Icon" > </p>
 </body>
 </html>
