@@ -8,7 +8,7 @@ import conexion.Conexion;
 import entidad.ClienteVO;
 
 public class LoginClienteModelo {
-public ClienteVO obtenerUsuario(String nombre, String password) {
+public ClienteVO obtenerUsuario(String nombre, String password, String cedula_cliente) {
 		
 	 ClienteVO cliente = null;
 		 
@@ -36,6 +36,7 @@ public ClienteVO obtenerUsuario(String nombre, String password) {
 		        	//usuario.setNombre_usuario(rs.getString("nombre_usuario"));
 		        	cliente.setPassword(rs.getString("password"));
 		        	cliente.setUsuario(rs.getString("usuario"));
+		        	cliente.setCedula_cliente(rs.getInt("cedula_cliente"));
 		        	
 		        }
 			

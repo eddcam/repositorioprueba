@@ -31,9 +31,10 @@ public class ServletClienteLogin extends HttpServlet {
 		
 		String nombre = request.getParameter("usuario");
 		String password = request.getParameter("password");
+		String cedula_cliente = request.getParameter("cedula_cliente");
 		
 		LoginClienteModelo modelo = new LoginClienteModelo();
-		ClienteVO usuario = modelo.obtenerUsuario(nombre, password );
+		ClienteVO usuario = modelo.obtenerUsuario(nombre, password,cedula_cliente );
 		
 		if (usuario == null) {
 			
@@ -63,9 +64,11 @@ public class ServletClienteLogin extends HttpServlet {
 	private void iniciarSesion(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String nombre = request.getParameter("usuario");
 		String password = request.getParameter("password");
+		String cedula_cliente = request.getParameter("cedula_cliente");
 		
 		LoginClienteModelo modelo = new LoginClienteModelo();
-		ClienteVO usuario = modelo.obtenerUsuario(nombre, password );
+		ClienteVO usuario = modelo.obtenerUsuario(nombre, password,cedula_cliente );
+		
 		
 		if (usuario == null) {
 			
@@ -74,6 +77,7 @@ public class ServletClienteLogin extends HttpServlet {
 		}else {
 			HttpSession sesion = request.getSession();
 			sesion.setAttribute("usuario", usuario);
+			sesion.setAttribute("cedula_cliente",cedula_cliente);
 			response.sendRedirect("indexClientes.jsp");
 
 		}
